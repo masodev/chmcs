@@ -26,11 +26,9 @@ end
 group :development do
   gem 'quiet_assets'
   gem 'pry'
-  gem 'sqlite3'
 end
 
 group :production do
   ruby '2.2.0'
-  gem 'pg'
   gem 'rails_12factor'
 end
