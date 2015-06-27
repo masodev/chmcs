@@ -30,7 +30,7 @@ group :development do
 end
 
 group :production do
-  gem 'ruby', '2.2.0'
+  ruby '2.2.0'
   gem 'mysql2'
   gem 'rails_12factor'
 end
